@@ -24,7 +24,7 @@ var linkl_list = [
   update();
 });
 
-function getLink() {
+function getmp4() {
   var e = document.getElementById("container");
   e.style.display = "block";
   var e = document.getElementById("get-button");
