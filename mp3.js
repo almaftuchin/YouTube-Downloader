@@ -2,7 +2,7 @@ $(window).load(function() {
   var linkl_list = [
     'http://ytbapi.com/dl.php?link=[drive-id]' + '&amp;format=mp3&amp;text=fff&amp;color=009688'
   ];
-  var linkl_list = [
+  var linkl_list2 = [
     'http://ytbapi.com/dl.php?link=[drive-id2]' + '&amp;format=mp4&amp;text=fff&amp;color=009688'
   ];
   var update = function() {
