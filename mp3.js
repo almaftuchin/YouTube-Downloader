@@ -1,6 +1,6 @@
 $(window).load(function() {
   var linkl_list = [
-    'http://oke.io/st/?api=1b777cff0d565586e5ca50eb50e9a461073feeac&url=' + 'http://ytbapi.com/dl.php?link=[drive-id]' + '&amp;format=mp3&amp;text=fff&amp;color=009688'
+    'http://ytbapi.com/dl.php?link=[drive-id]' + '&amp;format=mp3&amp;text=fff&amp;color=009688'
   ];
   var update = function() {
     if (update_html) {
@@ -33,5 +33,3 @@ function getLink() {
 $(function() {
   $('[data-toggle="tooltip"]').tooltip()
 })
-
-
