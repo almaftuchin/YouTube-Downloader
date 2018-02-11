@@ -9,10 +9,10 @@ $(window).load(function() {
     if (update_html) {
       var html = '';
       var drive_id = $('#driveID').val();
-
+      var drive_id2 = $('#driveID2').val();
       $.each(linkl_list, function() {
         var drive_url = this.replace('[drive-id]', drive_id);
-        var drive_url2 = this.replace('[drive-id2]', drive_id);
+        var drive_url2 = this.replace('[drive-id2]', drive_id2);
         html = html + '<div class="btn-group"><button type="button" class="btn btn-primary"><strong>Ready:</strong></button><a target="_blank" href="' + drive_url + '"><button type="button" class="btn btn-default"  contenteditable="false">Download MP3</button></a> <a target="_blank" href="' + drive_url2 + '"><button type="button" class="btn btn-default"  contenteditable="false">Download MP4</button></a></div>';
       });
       $('#link_container').html(html);
