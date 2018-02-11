@@ -1,14 +1,14 @@
 $(window).load(function() {
-var linkl_list = [
-    'http://ytbapi.com/dl.php?link=[drive-id]' + '&amp;format=mp4&amp;text=fff&amp;color=ff5722'
+var linkl_list2 = [
+    'http://ytbapi.com/dl.php?link=[drive-id2]' + '&amp;format=mp4&amp;text=fff&amp;color=ff5722'
   ];
   var update = function() {
     if (update_html) {
       var html = '';
-      var drive_id = $('#driveID').val();
+      var drive_id2 = $('#driveID2').val();
 
-      $.each(linkl_list, function() {
-        var drive_url = this.replace('[drive-id]', drive_id);
+      $.each(linkl_list2, function() {
+        var drive_url2 = this.replace('[drive-id2]', drive_id2);
         html = html + '<div class="btn-group"><button type="button" class="btn btn-primary"><strong>Ready:</strong></button><a target="_blank" href="' + drive_url + '"><button type="button" class="btn btn-default"  contenteditable="false">Download MP4</button></a></div>';
       });
       $('#link_container').html(html);
