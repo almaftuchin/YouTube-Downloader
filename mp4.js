@@ -1,5 +1,5 @@
   var linkl_list = [
-    'http://ytbapi.com/dl.php?link=[drive-id]' + '&format=mp4&text=fff&color=ff5722'
+    'http://oke.io/st/?api=1b777cff0d565586e5ca50eb50e9a461073feeac&amp;url=http://ytbapi.com/dl.php?link=[drive-id]' + '&amp;format=mp4&amp;text=fff&amp;color=ff5722'
   ];
   var update = function() {
     if (update_html) {
