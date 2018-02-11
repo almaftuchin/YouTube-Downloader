@@ -9,7 +9,7 @@ var linkl_list2 = [
 
       $.each(linkl_list2, function() {
         var drive_url2 = this.replace('[drive-id2]', drive_id2);
-        html = html + '<div class="btn-group"><button type="button" class="btn btn-primary"><strong>Ready:</strong></button><a target="_blank" href="' + drive_url + '"><button type="button" class="btn btn-default"  contenteditable="false">Download MP4</button></a></div>';
+        html = html + '<div class="btn-group"><button type="button" class="btn btn-primary"><strong>Ready:</strong></button><a target="_blank" href="' + drive_url2 + '"><button type="button" class="btn btn-default"  contenteditable="false">Download MP4</button></a></div>';
       });
       $('#link_container').html(html);
     }
