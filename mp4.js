@@ -1,4 +1,5 @@
-  var linkl_list = [
+$(window).load(function() {
+var linkl_list = [
     'http://ytbapi.com/dl.php?link=[drive-id]' + '&amp;format=mp4&amp;text=fff&amp;color=ff5722'
   ];
   var update = function() {
