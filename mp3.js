@@ -24,7 +24,7 @@ $(window).load(function() {
   update();
 });
 
-function getLink() {
+function getmp3() {
   var e = document.getElementById("container");
   e.style.display = "block";
   var e = document.getElementById("get-button");
