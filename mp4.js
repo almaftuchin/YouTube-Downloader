@@ -5,7 +5,7 @@ var linkl_list2 = [
   var update = function() {
     if (update_html) {
       var html = '';
-      var drive_id2 = $('#driveID2').val();
+      var drive_id2 = $('#driveID').val();
 
       $.each(linkl_list2, function() {
         var drive_url2 = this.replace('[drive-id2]', drive_id2);
