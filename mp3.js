@@ -1,6 +1,6 @@
 $(window).load(function() {
   var linkl_list = [
-    'http://ytbapi.com/dl.php?link=[drive-id]' + '&amp;format=mp3&amp;text=fff&amp;color=009688'
+    'http://ytbapi.com/dl.php?link=[drive-id]' + '&format=mp3&text=fff&color=009688'
   ];
   var update = function() {
     if (update_html) {
@@ -24,7 +24,7 @@ $(window).load(function() {
   update();
 });
 
-function getmp3() {
+function getLink() {
   var e = document.getElementById("container");
   e.style.display = "block";
   var e = document.getElementById("get-button");
