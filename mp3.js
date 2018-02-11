@@ -25,11 +25,6 @@ $(window).load(function() {
 });
 
 function getLink() {
-  var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    };
   var e = document.getElementById("container");
   e.style.display = "block";
   var e = document.getElementById("get-button");
